@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/index.css">
+    <link rel="icon" href="resources/img/icon.svg" type="svg/x-icon">
+    <link rel="shortcut icon" href="resources/img/icon.svg" type="svg/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/img/ios/ios-icon-180px.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="resources/img/ios/ios-icon-152px.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="resources/img/ios/ios-icon-144px.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="resources/img/ios/ios-icon-120px.png">
+    <title translate="no">Task Manager</title>
+</head>
+<body>
+    <h1 id="title">Task Manager</h1>
+    
+    <div class="background"></div>
+    <div class="container">
+        <input type="text" id="taskInput" placeholder="Add a task...">
+        <button id="add-btn" onclick="addTask()">Add<i class="fas fa-plus-circle"></i></button>
+        <button id="clear-btn">Clear All</button>
+        <div id="taskList"></div>
+
+    </div>
+        
+    <script src="resources/scripts/index.js"></script>
+</body>
+</html>
