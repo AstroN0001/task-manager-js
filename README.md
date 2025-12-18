@@ -10,6 +10,9 @@ The app combines task management with a fully featured **Pomodoro focus timer** 
 GitHub Repository:  
 https://github.com/ASTRON0001/task-manager-js
 
+Live Demo Link
+https://astron0001.github.io/task-manager-js/
+
 ---
 
 ## 🚀 Features
