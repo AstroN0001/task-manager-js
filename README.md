@@ -1,3 +1,6 @@
+## 🌐 Live Demo
+https://astron0001.github.io/task-manager-js/
+
 # Task Manager Web Application
 
 A clean and interactive task management web application built using **HTML, CSS, and Vanilla JavaScript**.  
@@ -23,6 +26,10 @@ https://github.com/ASTRON0001/task-manager-js
 1. Clone the repository  
 2. Open `index.html` in a browser  
 3. Start managing your tasks
+
+OR
+
+Simply click the Live Demo link to run the program.
 
 ---
 
