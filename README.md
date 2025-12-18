@@ -1,10 +1,9 @@
-## 🌐 Live Demo
-https://astron0001.github.io/task-manager-js/
+# Task Manager with Pomodoro Focus Timer
 
-# Task Manager Web Application
+A productivity-focused web application built using **HTML, CSS, and Vanilla JavaScript**.  
+The app combines task management with a fully featured **Pomodoro focus timer** to help users plan and execute work effectively.
 
-A clean and interactive task management web application built using **HTML, CSS, and Vanilla JavaScript**.  
-Designed to help users efficiently manage daily tasks with persistent browser storage.
+---
 
 ## 🔗 Project Link
 
@@ -13,24 +12,38 @@ https://github.com/ASTRON0001/task-manager-js
 
 ---
 
-## Features:
-- **Create and Delete Tasks**: Quickly add new tasks or delete completed ones with ease.
-- **Data Persistence**: Your tasks are saved locally in the browser using `localStorage`.
-- **Responsive Design**: The application adapts to both mobile and desktop devices for a smooth user experience.
-- **No External Dependencies**: The app is entirely built using pure HTML, CSS, and JavaScript.
+## 🚀 Features
+
+### Task Management
+- Add, delete, and complete tasks
+- Prevent duplicate tasks
+- Persistent task storage using browser localStorage
+
+### Pomodoro Focus Timer
+- Incremental time controls (5 / 10 / 15 minutes)
+- Start, stop (pause), and reset controls
+- Automatic transition from focus to break
+- User-configurable break duration
+- Visual mode indicator (FOCUS / BREAK / IDLE)
+- Audio notifications at session transitions
+- Persistent timer state across page reloads
 
 ---
 
-## ▶️ How to Run
-
-1. Clone the repository  
-2. Open `index.html` in a browser  
-3. Start managing your tasks
-
-OR
-
-Simply click the Live Demo link to run the program.
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- JavaScript (DOM manipulation, events, timers)
+- Browser localStorage API
+- GitHub Pages for deployment
 
 ---
 
+## 🧠 Key Learnings
+- State-driven UI design
+- Timer management using `setInterval`
+- Finite state transitions (Idle → Focus → Break)
+- Persistent state restoration using timestamps
+- UX-focused feature design
+- Clean project ownership and deployment
 

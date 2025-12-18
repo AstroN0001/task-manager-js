@@ -13,6 +13,42 @@
     <title translate="no">Task Manager</title>
 </head>
 <body>
+    <!-- Pomodoro Timer -->
+<!-- Pomodoro Timer -->
+<div class="pomodoro-container">
+    <h2>Pomodoro Focus Timer</h2>
+
+    <p class="pomodoro-subtext">
+        Select focus duration
+    </p>
+
+    <div class="focus-buttons">
+        <button class="focus-btn" data-time="5">5 min</button>
+        <button class="focus-btn" data-time="10">10 min</button>
+        <button class="focus-btn" data-time="15">15 min</button>
+    </div>
+
+    <div class="break-settings">
+        <label for="breakTime">Break time (minutes):</label>
+        <input type="number" id="breakTime" min="1" max="30" value="5">
+    </div>
+    <div class="mode-indicator" id="modeIndicator">
+        IDLE
+    </div>
+
+    <div class="timer-display" id="timerDisplay">
+        00:00
+    </div>
+
+<div class="pomodoro-controls">
+    <button id="startTimer" class="start-btn">Start</button>
+    <button id="stopTimer" class="stop-btn">Stop</button>
+    <button id="resetTimer" class="reset-btn">Reset</button>
+</div>
+
+
+</div>
+
     <h1 id="title">Task Manager</h1>
     
     <div class="background"></div>
@@ -23,7 +59,7 @@
         <div id="taskList"></div>
 
     </div>
-        
+    
     <script src="resources/scripts/index.js"></script>
 </body>
 </html>
